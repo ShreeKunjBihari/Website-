@@ -1,0 +1,31 @@
+const products = [
+    ...productsA,
+    ...productsB,
+    ...productsC,
+    ...productsD,
+    ...productsE,
+    ...productsF,
+    ...productsG,
+    ...productsH,
+    ...productsI,
+    ...productsJ,
+    ...productsK,
+    ...productsL,
+    ...productsM,
+    ...productsN,
+    ...productsO,
+    ...productsP,
+    ...productsQ,
+    ...productsR,
+    ...productsS,
+    ...productsT,
+    ...productsU,
+    ...productsV,
+    ...productsW,
+    ...productsX,
+    ...productsY,
+    ...productsZ,
+
+
+    
+];

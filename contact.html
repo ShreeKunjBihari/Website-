@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Shree Khunj Bihari Enterprises</title>
+    <meta name="description"
+          content="Contact Shree Khunj Bihari Enterprises for pharmaceutical impurities, reference standards, laboratory consumables and analytical equipment enquiries.">
+
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" type="image/png" href="images/skb%20logo.png">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                <img src="images/skb logo.png"
+                     alt="Shree Khunj Bihari Enterprises logo">
+            </a>
+
+            <nav class="nav-links" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="product.html">Products</a>
+                <a href="quality.html">Quality</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
+
+            <a href="#contact-form" class="nav-cta">
+                Request an Enquiry
+            </a>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="contact-hero">
+            <div class="hero-content">
+                <span class="eyebrow">WE'RE HERE TO HELP</span>
+
+                <h1>Let's Discuss Your <span>Requirements</span></h1>
+
+                <p>
+                    Looking for a pharmaceutical impurity, reference standard,
+                    laboratory consumable or analytical instrument?
+                    Share your requirements with us.
+                </p>
+
+                <a href="#contact-form" class="hero-button">
+                    Send an Enquiry
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
+            </div>
+
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+        </section>
+
+
+        <!-- CONTACT INTRO -->
+        <section class="contact-intro">
+            <span class="eyebrow">CONTACT SKB</span>
+            <h2>How Can We Help You?</h2>
+            <p>
+                Provide the product name, CAS number, required quantity
+                or technical specifications so we can understand your
+                enquiry more clearly.
+            </p>
+        </section>
+
+
+        <!-- CONTACT DETAILS + FORM -->
+        <section class="contact-section" id="contact-form">
+
+            <div class="contact-info">
+
+                <span class="eyebrow">GET IN TOUCH</span>
+                <h2>Tell Us What You Need</h2>
+
+                <p class="info-description">
+                    Use the enquiry form to share your requirements.
+                    Please provide accurate details to help identify
+                    the relevant product or service.
+                </p>
+
+                <div class="info-card">
+                    <div class="info-icon" aria-hidden="true">&#10003;</div>
+                    <div>
+                        <h3>Product Enquiries</h3>
+                        <p>
+                            Ask about product specifications, CAS numbers,
+                            quantities and availability.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon" aria-hidden="true">&#9776;</div>
+                    <div>
+                        <h3>Quotation Requests</h3>
+                        <p>
+                            Share your required product and quantity
+                            for a quotation enquiry.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon" aria-hidden="true">&#9741;</div>
+                    <div>
+                        <h3>Technical Requirements</h3>
+                        <p>
+                            Include any relevant grade, specification,
+                            model or application details.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="info-note">
+                    <strong>Quality You Can Trust</strong>
+                    <p>
+                        Clear product information and communication
+                        are important parts of our enquiry process.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- ENQUIRY FORM -->
+            <div class="contact-form-card">
+
+                <div class="form-heading">
+                    <h2>Submit Your Enquiry</h2>
+                    <p>Fields marked * are required.</p>
+                </div>
+
+                <form id="contactEnquiryForm">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="customerName">Full Name *</label>
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="companyName">Company Name *</label>
+                            <input
+                                type="text"
+                                id="companyName"
+                                name="companyName"
+                                placeholder="Enter your company name"
+                                autocomplete="organization"
+                                required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="customerEmail">Business Email *</label>
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                name="customerEmail"
+                                placeholder="name@company.com"
+                                autocomplete="email"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customerPhone">Phone Number *</label>
+                            <input
+                                type="tel"
+                                id="customerPhone"
+                                name="customerPhone"
+                                placeholder="Enter your phone number"
+                                autocomplete="tel"
+                                required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="enquiryType">Enquiry Type *</label>
+                        <select id="enquiryType" name="enquiryType" required>
+                            <option value="">Select enquiry type</option>
+                            <option value="Pharmaceutical Impurities">
+                                Pharmaceutical Impurities
+                            </option>
+                            <option value="Reference Standards">
+                                Reference Standards
+                            </option>
+                            <option value="Laboratory Consumables">
+                                Laboratory Consumables
+                            </option>
+                            <option value="Analytical Instruments">
+                                Analytical Instruments
+                            </option>
+                            <option value="Laboratory Equipment">
+                                Laboratory Equipment
+                            </option>
+                            <option value="Other">
+                                Other Requirements
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="productName">Product Name</label>
+                            <input
+                                type="text"
+                                id="productName"
+                                name="productName"
+                                placeholder="Enter product or compound name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="casNumber">CAS Number</label>
+                            <input
+                                type="text"
+                                id="casNumber"
+                                name="casNumber"
+                                placeholder="Enter CAS number if available">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="quantity">Required Quantity</label>
+                        <input
+                            type="text"
+                            id="quantity"
+                            name="quantity"
+                            placeholder="e.g. 100 mg, 1 kg, 2 units">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="requirements">Your Requirements *</label>
+                        <textarea
+                            id="requirements"
+                            name="requirements"
+                            rows="5"
+                            placeholder="Describe the product, specifications, grade, quantity or other requirements..."
+                            required></textarea>
+                    </div>
+
+
+                    <label class="consent-label">
+                        <input type="checkbox" id="consent" required>
+                        <span>
+                            I agree to be contacted regarding this enquiry. *
+                        </span>
+                    </label>
+
+
+                    <button type="submit" class="submit-button">
+                        Submit Enquiry
+                        <span aria-hidden="true">&rarr;</span>
+                    </button>
+
+                    <p
+                        id="formStatus"
+                        class="form-status"
+                        role="status"
+                        aria-live="polite">
+                    </p>
+
+                    <p class="form-disclaimer">
+                        Your enquiry is submitted securely to our system. Please keep your reference ID for future communication.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOTTOM CTA -->
+        <section class="contact-bottom">
+            <span class="eyebrow">SHREE KHUNJ BIHARI ENTERPRISES</span>
+            <h2>Have a Specific Product in Mind?</h2>
+            <p>
+                Explore our product catalogue to find a product,
+                then share your requirement through the enquiry form.
+            </p>
+
+            <a href="product.html" class="bottom-button">
+                Explore Products
+                <span aria-hidden="true">&rarr;</span>
+            </a>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-main">
+
+            <div class="footer-company">
+                <a href="index.html" class="footer-logo">
+                    <img src="images/skb logo.png"
+                         alt="Shree Khunj Bihari Enterprises logo">
+                </a>
+
+                <p>
+                    Pharmaceutical and laboratory product solutions,
+                    guided by customer requirements and clear communication.
+                </p>
+
+                <span class="footer-tagline">QUALITY YOU CAN TRUST</span>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="product.html">Products</a>
+                <a href="quality.html">Quality</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+            <div class="footer-links">
+                <h3>Our Portfolio</h3>
+                <a href="product.html">Pharmaceutical Impurities</a>
+                <a href="product.html">Reference Standards</a>
+                <a href="product.html">Laboratory Consumables</a>
+                <a href="product.html">Analytical Instruments</a>
+                <a href="product.html">Laboratory Equipment</a>
+            </div>
+
+
+            <div class="footer-contact">
+                <h3>Product Enquiries</h3>
+                <p>
+                    Have a product or quotation requirement?
+                    Send us the details through our contact form.
+                </p>
+
+                <a href="#contact-form" class="footer-contact-btn">
+                    Send an Enquiry
+                    <span aria-hidden="true">&rarr;</span>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="currentYear"></span>
+                Shree Khunj Bihari Enterprises. All rights reserved.
+            </p>
+
+            <a href="index.html">Back to Home</a>
+        </div>
+
+    </footer>
+
+
+  
+<script src="config.js"></script>
+<script>
+    // Automatically update the footer year
+    document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+    const enquiryForm = document.getElementById("contactEnquiryForm");
+    const formStatus = document.getElementById("formStatus");
+    const submitButton = enquiryForm.querySelector(
+        'button[type="submit"]'
+    );
+
+    enquiryForm.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        if (!enquiryForm.checkValidity()) {
+            enquiryForm.reportValidity();
+            return;
+        }
+
+        if (!document.getElementById("consent").checked) {
+            formStatus.textContent =
+                "Please agree to be contacted regarding this enquiry.";
+            formStatus.classList.add("status-warning");
+            return;
+        }
+
+        const formData = {
+            customer_name: document.getElementById("customerName").value.trim(),
+            company_name: document.getElementById("companyName").value.trim(),
+            email: document.getElementById("customerEmail").value.trim(),
+            phone: document.getElementById("customerPhone").value.trim(),
+            enquiry_type: document.getElementById("enquiryType").value,
+            product_name: document.getElementById("productName").value.trim(),
+            cas_number: document.getElementById("casNumber").value.trim(),
+            quantity: document.getElementById("quantity").value.trim(),
+            requirements: document.getElementById("requirements").value.trim()
+        };
+
+        submitButton.disabled = true;
+        formStatus.classList.remove("status-warning");
+        formStatus.textContent = "Submitting your enquiry...";
+
+        try {
+            const apiUrl = typeof getApiUrl === "function"
+                ? getApiUrl("/api/enquiries")
+                : "/api/enquiries";
+
+            const response = await fetch(
+                apiUrl,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(formData)
+                }
+            );
+
+            const result = await response.json();
+
+            if (!response.ok || !result.success) {
+                throw new Error(
+                    result.message || "Unable to submit your enquiry."
+                );
+            }
+
+            formStatus.textContent =
+                `Enquiry submitted successfully! Reference ID: ${result.enquiry.id}`;
+
+            enquiryForm.reset();
+        } catch (error) {
+            console.error("Enquiry submission failed:", error);
+
+            formStatus.textContent =
+                "We couldn't submit your enquiry. Please try again.";
+
+            formStatus.classList.add("status-warning");
+        } finally {
+            submitButton.disabled = false;
+        }
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "skb-backend",
+  "version": "1.0.0",
+  "description": "Shree Khunj Bihari Enterprises - Backend API Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "node server.js",
+    "import:products": "node scripts/import-products.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [],
+  "author": "Shree Khunj Bihari Enterprises",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "pg": "^8.23.1"
+  }
+}

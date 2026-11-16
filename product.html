@@ -1,0 +1,206 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore pharmaceutical impurities, reference standards, laboratory consumables and analytical products from Shree Khunj Bihari Enterprises.">
+
+    <meta name="theme-color" content="#1556a8">
+
+    <title>Product Catalog | Shree Khunj Bihari Enterprises</title>
+
+    <link rel="stylesheet" href="product.css">
+    <link rel="icon" type="image/png" href="images/skb%20logo.png">
+</head>
+<body>
+
+    <!-- SKB Navigation -->
+    <header class="navbar">
+       <a href="index.html" class="logo"
+           aria-label="Shree Khunj Bihari Enterprises Home">
+            <img src="images/skb logo.png"
+         alt="Shree Khunj Bihari Enterprises">
+       </a>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html" aria-current="page">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        
+             <button class="quote-btn" id="catalogQuoteBtn" type="button">
+                Request Quote
+              </button>
+
+    </header>
+
+    <!-- Product Catalog -->
+    <main class="catalog">
+        <div class="container">
+
+            <div class="catalog-heading">
+                <p class="catalog-eyebrow">SHREE KHUNJ BIHARI ENTERPRISES</p>
+
+                <h1>Our Product Catalog</h1>
+
+                <p class="subtitle">
+                    Explore our range of pharmaceutical impurities,
+                    reference standards and laboratory products.
+                </p>
+            </div>
+
+            <div id="productCount" class="product-count"
+                 aria-live="polite">
+                Loading products...
+            </div>
+
+            <div class="search-box">
+                <label class="visually-hidden" for="searchInput">
+                    Search products by name or CAS number
+                </label>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search by product name, impurity or CAS number..."
+                    autocomplete="off">
+            </div>
+
+            <div class="alphabet-filter"
+                 id="alphabetFilter"
+                 aria-label="Filter products alphabetically">
+            </div>
+
+            <div class="product-grid" id="productGrid"></div>
+
+            <p id="noProductsMessage" class="no-products" hidden>
+                No products are available for this search or category.
+                Please try another search.
+            </p>
+
+            <div class="load-more-wrap">
+                <button id="loadMoreBtn" type="button">
+                    Load More Products
+                </button>
+            </div>
+
+            <div class="catalog-back-link">
+                <a href="index.html">&larr; Back to Home</a>
+            </div>
+
+        </div>
+    </main>
+
+    
+<!-- Catalog Request Quote Popup -->
+<div class="quote-modal" id="catalogQuoteModal" aria-hidden="true">
+    <div class="quote-modal-content"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="catalogQuoteTitle">
+
+        <button class="quote-close"
+                id="catalogQuoteClose"
+                type="button"
+                aria-label="Close quote form">&times;</button>
+
+        <h2 id="catalogQuoteTitle">Request a Quote</h2>
+        <p>Tell us about your product requirements.</p>
+
+        <form id="catalogQuoteForm">
+            <div class="quote-form-grid">
+
+                <label>
+                    Full Name *
+                    <input name="name" type="text" required>
+                </label>
+
+                <label>
+                    Company Name
+                    <input name="company" type="text">
+                </label>
+
+                <label>
+                    Business Email *
+                    <input name="email" type="email" required>
+                </label>
+
+                <label>
+                    Phone Number
+                    <input name="phone" type="tel">
+                </label>
+
+                <label class="quote-full-width">
+                    Product / CAS Number
+                    <input name="product" id="catalogQuoteProduct"
+                           type="text"
+                           placeholder="Enter product name or CAS number">
+                </label>
+
+                <label class="quote-full-width">
+                    Requirements *
+                    <textarea name="message" rows="4"
+                              placeholder="Tell us what you need..."
+                              required></textarea>
+                </label>
+
+            </div>
+
+            <button class="quote-submit" type="submit">
+                Submit Enquiry
+            </button>
+
+            <p class="quote-form-status"
+               id="catalogQuoteStatus"
+               role="status"
+               aria-live="polite"></p>
+        </form>
+    </div>
+</div>
+
+
+    <!-- Product data: keep each file loaded exactly once -->
+    <script src="data/a.js"></script>
+    <script src="data/b.js"></script>
+    <script src="data/c.js"></script>
+    <script src="data/d.js"></script>
+    <script src="data/e.js"></script>
+    <script src="data/f.js"></script>
+    <script src="data/g.js"></script>
+    <script src="data/h.js"></script>
+    <script src="data/i.js"></script>
+    <script src="data/j.js"></script>
+    <script src="data/k.js"></script>
+    <script src="data/l.js"></script>
+    <script src="data/m.js"></script>
+    <script src="data/n.js"></script>
+    <script src="data/o.js"></script>
+    <script src="data/p.js"></script>
+    <script src="data/q.js"></script>
+    <script src="data/r.js"></script>
+    <script src="data/s.js"></script>
+    <script src="data/t.js"></script>
+    <script src="data/u.js"></script>
+    <script src="data/v.js"></script>
+    <script src="data/w.js"></script>
+    <script src="data/x.js"></script>
+    <script src="data/y.js"></script>
+    <script src="data/z.js"></script>
+
+    <script src="data/data.js"></script>
+    <script src="config.js"></script>
+    <script src="product.js"></script>
+
+</body>
+</html>
+
+
