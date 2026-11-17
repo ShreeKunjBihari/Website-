@@ -296,6 +296,16 @@ nav a:hover::after {
     color: var(--navy);
     text-decoration: none;
     overflow-wrap: anywhere;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.product-card a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
 }
 
 .product-card::after {
@@ -304,6 +314,7 @@ nav a:hover::after {
     right: 17px;
     top: 50%;
     transform: translateY(-50%);
+    pointer-events: none;
 
     color: var(--primary);
     font-size: 19px;

@@ -191,8 +191,8 @@ app.get("/api/products/:slug", async (req, res) => {
   try {
     const { slug } = req.params;
 
-    // Validate slug format
-    if (!slug || !/^[a-z0-9][a-z0-9-]*$/.test(slug) || slug.length > 200) {
+    // Validate slug format (support letters, numbers, hyphens, underscores and spaces)
+    if (!slug || !/^[a-zA-Z0-9][a-zA-Z0-9\s_-]*$/.test(slug) || slug.length > 200) {
       return res.status(400).json({
         success: false,
         message: "Invalid product identifier."
@@ -217,7 +217,7 @@ app.get("/api/products/:slug", async (req, res) => {
       FROM products p
       LEFT JOIN product_compounds pc ON pc.product_id = p.id
       LEFT JOIN compounds c ON c.id = pc.compound_id
-      WHERE p.slug = $1 AND p.is_active = TRUE
+      WHERE (p.slug = $1 OR LOWER(p.slug) = LOWER($1)) AND p.is_active = TRUE
       GROUP BY p.id
     `, [slug]);
 
