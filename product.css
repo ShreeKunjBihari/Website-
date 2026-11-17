@@ -286,26 +286,17 @@ nav a:hover::after {
     font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
+    color: var(--navy);
+    text-decoration: none;
+    cursor: pointer;
 
     box-shadow: 0 4px 16px rgba(20, 48, 85, 0.035);
     transition: border-color 0.2s, box-shadow 0.2s,
                 transform 0.2s;
 }
 
-.product-card a {
-    color: var(--navy);
-    text-decoration: none;
+.product-card span {
     overflow-wrap: anywhere;
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.product-card a::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 1;
 }
 
 .product-card::after {
@@ -1243,6 +1234,8 @@ nav a:hover::after {
     border-color: #E2EAF2;
     border-radius: 12px;
     background: #FFFFFF;
+    color: #243B56;
+    text-decoration: none;
     transition: transform 0.22s ease,
                 border-color 0.22s ease,
                 box-shadow 0.22s ease;

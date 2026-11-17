@@ -227,16 +227,15 @@ function getFilteredProducts() {
                 : "#";
 
             return `
-                <div
+                <a
+                    href="${escapeHTML(productLink)}"
                     class="product-card"
                     data-letter="${escapeHTML(firstLetter)}">
 
-                    <a href="${escapeHTML(productLink)}">
-                        <span>${name}</span>
-                        <span aria-hidden="true">→</span>
-                    </a>
+                    <span>${name}</span>
+                    <span aria-hidden="true">→</span>
 
-                </div>
+                </a>
             `;
         }).join("");
 
